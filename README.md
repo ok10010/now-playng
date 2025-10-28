@@ -79,3 +79,8 @@
 1. Скомпилировать TypeScript:
 ```bash
 npm run compile
+```
+2. Скачать плагин
+```bash
+now-playing-0.0.2.vsix
+```
