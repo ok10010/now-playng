@@ -1,0 +1,35 @@
+{
+  "name": "now-playing",
+  "displayName": "Now Playing",
+  "publisher": "maksimorlov",
+  "description": "Stylish dark Spotify Now Playing panel with album art, waveform, and playback controls.",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "now-playing.togglePanel",
+        "title": "Toggle Spotify Mini Player"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch --outDir out"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.12",
+    "@types/vscode": "^1.105.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {}
+}
